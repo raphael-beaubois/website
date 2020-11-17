@@ -119,19 +119,15 @@ textarea[name=message]
         margin: auto;
     }
     .form-right-content{
-        width: 95%;
+        width: 100%;
         z-index: 0;
         // background-image: url('../Contact/map2.jpg');
         height: 500px;
         margin: auto;
-        
-        
-        
-
     }
 
     .form-left-content{
-    width: 80%;
+    width: 90%;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -140,9 +136,9 @@ textarea[name=message]
     min-height: 100vh;;
     margin-left: 50px;
     margin: auto;
-    
-
+    margin-top: 60px;
 }
+
 .form{
     display: flex;
     flex-direction: column;
@@ -152,7 +148,7 @@ textarea[name=message]
 
 
 #form-textarea{
-    max-width: 90%;
+    max-width: 100%;
     min-width: 90%;
     min-height: 300px;
     max-height: 500px;
@@ -160,7 +156,7 @@ textarea[name=message]
 }
 
 #form-input{
-    max-width: 90%;
+    max-width: 100%;
     min-width: 90%;
     padding: 10px;
     border-radius: 10px;

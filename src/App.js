@@ -1,11 +1,10 @@
-import React ,{Component, useEffect} from 'react';
+import React ,{Component} from 'react';
 import {
-  BrowserRouter as Router,
+  
   Switch,
   Route,
-  Link
+  
 } from "react-router-dom";
-import LoadingScreen from 'react-loading-screen';
 
 import './App.css';
 import Navigation from './components/Navigation/Navigation';
