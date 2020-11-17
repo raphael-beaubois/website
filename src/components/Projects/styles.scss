@@ -1,0 +1,187 @@
+.react-reveal {
+    opacity: 0;
+    padding: 0;
+    margin: 0px;
+}
+.project{
+    
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 200px;
+    
+    
+}
+.project-content{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin: auto;
+
+}
+
+.maquette-content{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    justify-content: center;
+    height: 100vh;
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+
+.project h2{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    display: block;
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 3rem;
+    margin-top: 40px;
+
+
+}
+
+
+
+
+.contentIMGIMG{
+    margin: auto;
+    max-width:700px;
+    height: auto;
+    
+}
+
+
+
+
+.content1{
+    display: flex;
+    flex-wrap: wrap;
+        width: 100%;
+        margin: 30px;
+        color: white;
+        font-family: 'Abel', sans-serif;
+        font-size: 1.4rem;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.692);
+    }
+
+.contentText{
+    height: auto;
+width: 50%;
+margin: auto;
+align-self: center;
+}
+
+.contentImg {
+    width: 50%;
+    
+}
+
+
+
+
+.content-content1{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    width: 100%;
+}
+
+.content-carrousel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    width: 100%;
+
+}
+
+
+@media only screen and (max-width:769px) { 
+    /* CSS rules here */
+   
+    
+    
+    .project{
+    
+        height:auto;
+            margin: auto;
+            /* font-size: 0px; */
+            display: contents;
+
+    
+}
+
+    .project-content{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        margin: auto;
+        margin-top: 70px;
+    
+    }
+
+    .contentImg {
+        width: 50%;
+        
+    }
+
+    .contentIMGIMG {
+        max-width: 300px;
+        height: auto;
+        min-width: 338px; 
+    }
+
+    .content-carrousel{
+
+        min-width: 350px;
+    width: 100%;
+    }
+
+    .content-content1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+
+.content1{
+    display: flex;
+    flex-wrap: wrap;
+        width: 100%;
+        margin: 30px;
+        color: white;
+        font-family: 'Abel', sans-serif;
+        font-size: 1.4rem;
+        border-bottom: solid 1px white;
+    }
+
+    .contentText {
+        height: auto;
+        /* margin: auto; */
+        width: 100%;
+        /* margin: 21px; */
+        text-align: center;
+    }
+
+    .maquette-content{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        justify-content: center;
+        height: 500px;
+        margin: auto;
+    }
+}

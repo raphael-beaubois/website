@@ -1,0 +1,75 @@
+
+
+.slide-container{
+   width: 50%;
+   margin: auto;
+   margin-top: 50px;
+   border-radius: 50px;
+   padding: 10px;
+color: white;
+
+   
+}
+
+.react-reveal {
+   opacity: 0;
+   padding: 0;
+   margin: 0px;
+}
+
+.first{
+   box-shadow: -1px 21px 19px 3px rgba(0,0,0,0.75) ;
+   border-radius: 50px;
+   margin-bottom: 90px;
+
+}
+
+.second{
+   box-shadow: -1px 21px 19px 3px rgba(0, 0, 0, 0.418);
+   margin-bottom: 90px;
+   border-radius: 50px;
+
+}
+
+
+
+.img {
+   width: 50%;
+   height: 400px;
+   margin: auto;
+
+}
+
+.imgSlide {
+   width: 100%;
+   border-radius: 20px;
+   margin: auto;
+}
+
+
+@media only screen and (max-width:700px) { 
+   /* CSS rules here */
+   .img {
+      width: 100%;
+      margin: auto;
+
+      height: 250px;
+   }
+   
+   .imgSlide {
+      width: 100%;
+      border-radius: 10px;
+      margin: auto;
+
+   }
+   .slide-container{
+      width: 80%;
+      margin: auto;
+      margin-top: 50px;
+      border-radius: 50px;
+      padding: 10px;
+   color: white;
+   
+      
+   }
+  }
