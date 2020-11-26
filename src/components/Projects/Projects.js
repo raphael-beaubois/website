@@ -7,6 +7,7 @@ import Slide from 'react-reveal/Slide';
 import Carroussel from './Carroussel/Carroussel'
 
 import mockup from './mockup.png'
+import lenid from './mocklenid.png'
 
 
 const Project = (props) => {
@@ -41,24 +42,26 @@ config={{delay: 400}}
 
 <div className='contentText'>
 
-<h3>NOM DU SITE</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at erat commodo,
- maximus nunc vel, cursus nulla. Aliquam porta laoreet metus nec vehicula. Suspen
- disse rhoncus ligula sed gravida feugiat. Proin tincidunt in est 
- consectetur molestie. Sed nec metus a est vehicula tincidunt dui.</p>
+<h3>LE NID</h3>
+<p>Projets de fin d'étude: Le Nid a pour but de mettre en relation développeurs et Professionnels en manque de visibilité et 
+pouvant s'entraider mutuellement. Le développeur met à disposition ses compétences techniques, améli
+orant, ou créant intégralement le site du professionnel qui, pour sa part, s'engage à laisser appare
+ntes les références du développeur sur le site.</p>
+<a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > --> VOIR ICI... </a>
+
  </div>
  </Slide>
 
  <Slide right>
 
 <div className='contentImg'>
-<img className='contentIMGIMG' src={mockup}  alt="pic" />
+<img className='contentIMGIMG' src={lenid}  alt="pic" />
 </div>
 </Slide>
 </div>
 
 
-<div className='content1'>
+{/* <div className='content1'>
 
 
 <Slide left>
@@ -79,10 +82,10 @@ config={{delay: 400}}
 <img className='contentIMGIMG' src={mockup}  alt="pic" />
 </div>
 </Slide>
-</div>
+</div> */}
 
 
-<div className='content1'>
+{/* <div className='content1'>
 
 
 
@@ -104,14 +107,14 @@ config={{delay: 400}}
 <img className='contentIMGIMG' src={mockup}  alt="pic" />
 </div>
 </Slide>
-</div>
+</div> */}
 
 </div>
 
 
 
 </div>
-<div className='maquette-content'>
+{/* <div className='maquette-content'>
 
 <Slide bottom>
 <Spring
@@ -131,7 +134,7 @@ config={{delay: 400}}
 
 
 </div>
-</div>
+</div> */}
   <Particles  params={{
   "autoPlay": true,
   "background": {
