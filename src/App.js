@@ -39,7 +39,7 @@ toggle = () => {
   return (
 
     <div className="App">
-<Switch forceRefresh={true}>
+<Switch>
 
 <Route exact path="/">
 

@@ -120,7 +120,7 @@ const Header = (props) => {
 
 
   
-    <div classname='content-img' style={styles.root}>
+    <div id='content-img' style={styles.root}>
   
    
     {/* <img src={ufo} className='img-ufo'/> */}
@@ -483,10 +483,10 @@ const Header = (props) => {
     "number": {
       "density": {
         "enable": true,
-        "area": 2500,
-        "factor": 2700
+        "area": 4000,
+        "factor": 4000
       },
-      "limit": 250,
+      "limit": 50,
       "value": 70
     },
     "opacity": {

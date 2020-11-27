@@ -21,7 +21,7 @@ const Navigation = (props) => {
     </a>: <a onClick={onButtonClick} >
      <img src={france} className='lang-button-fr'/>
     </a> }
-          <li><a href='/'><i class="fas fa-home" style={{fontSize: '2rem', marginTop: '15px',color: 'grey'}}></i></a><br/>         {!lang ? <p>Acceuil</p> : <p>Home</p> }</li>
+          <li><a href='/'><i class="fas fa-home" style={{fontSize: '2rem', marginTop: '15px',color: 'grey'}}></i></a><br/>         {!lang ? <p>Accueil</p> : <p>Home</p> }</li>
           <li><a href='/about'><i class="fas fa-id-card" style={{fontSize: '2rem', marginTop: '15px',color: 'grey'}}></i></a><br/> {!lang ? <p>Bio</p> : <p>About</p> }</li>
           <li><a href='/skills'><i class="fas fa-cogs" style={{fontSize: '2rem', marginTop: '15px',color: 'grey'}}></i></a><br/>   {!lang ? <p>Skills</p> : <p>Skills</p> }</li>
           <li><a href='/project'><i class="far fa-eye" style={{fontSize: '2rem', marginTop: '15px',color: 'grey'}}></i></a><br/>   {!lang ? <p>Projets</p> : <p>Works</p> }</li>

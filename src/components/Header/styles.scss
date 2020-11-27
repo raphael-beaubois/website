@@ -146,7 +146,7 @@
 
     
 
-    @media (max-width:500px) { 
+    @media (max-width:760px) { 
         /* CSS rules here */
         .header {
             /* display: flex; */
@@ -159,7 +159,9 @@
             
         }
     
-      
+      #content-img{
+          display: none;
+      }
     
         .header-left-content {
             width: 50%;

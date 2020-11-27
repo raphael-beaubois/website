@@ -42,7 +42,7 @@ const Contact = (props) => {
       <input id='form-input' type="email" name="user_email" />
       <label className="form-label">Message:</label>
       <textarea id='form-textarea' name="message" />
-      <input id='input-button' type="submit" value="Click!" />
+      <input id='input-button' type="submit" value="Click!" onClick={()=>{ window.location.reload(true);    return alert('Envoi de message confirmé ! Merci')}}/>
     </form>
     </div>
     </Slide>
