@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.afcdba4f.chunk.css",
-    "main.js": "/static/js/main.a3b72741.chunk.js",
-    "main.js.map": "/static/js/main.a3b72741.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b1094b60.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b1094b60.js.map",
+    "main.css": "/static/css/main.9b6a7203.chunk.css",
+    "main.js": "/static/js/main.3711f8b8.chunk.js",
+    "main.js.map": "/static/js/main.3711f8b8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8a7d97cc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8a7d97cc.js.map",
     "static/css/2.def951b9.chunk.css": "/static/css/2.def951b9.chunk.css",
-    "static/js/2.896b3840.chunk.js": "/static/js/2.896b3840.chunk.js",
-    "static/js/2.896b3840.chunk.js.map": "/static/js/2.896b3840.chunk.js.map",
-    "static/js/3.2d0953cc.chunk.js": "/static/js/3.2d0953cc.chunk.js",
-    "static/js/3.2d0953cc.chunk.js.map": "/static/js/3.2d0953cc.chunk.js.map",
+    "static/js/2.99e713db.chunk.js": "/static/js/2.99e713db.chunk.js",
+    "static/js/2.99e713db.chunk.js.map": "/static/js/2.99e713db.chunk.js.map",
+    "static/js/3.15a32cb1.chunk.js": "/static/js/3.15a32cb1.chunk.js",
+    "static/js/3.15a32cb1.chunk.js.map": "/static/js/3.15a32cb1.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.def951b9.chunk.css.map": "/static/css/2.def951b9.chunk.css.map",
-    "static/css/main.afcdba4f.chunk.css.map": "/static/css/main.afcdba4f.chunk.css.map",
-    "static/js/2.896b3840.chunk.js.LICENSE.txt": "/static/js/2.896b3840.chunk.js.LICENSE.txt",
+    "static/css/main.9b6a7203.chunk.css.map": "/static/css/main.9b6a7203.chunk.css.map",
+    "static/js/2.99e713db.chunk.js.LICENSE.txt": "/static/js/2.99e713db.chunk.js.LICENSE.txt",
     "static/media/adobeXD.13576448.png": "/static/media/adobeXD.13576448.png",
     "static/media/apple.e1122bc2.png": "/static/media/apple.e1122bc2.png",
     "static/media/bootstrap.054efa3f.png": "/static/media/bootstrap.054efa3f.png",
@@ -41,10 +41,10 @@
     "static/media/wordP.d6588fa6.png": "/static/media/wordP.d6588fa6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b1094b60.js",
+    "static/js/runtime-main.8a7d97cc.js",
     "static/css/2.def951b9.chunk.css",
-    "static/js/2.896b3840.chunk.js",
-    "static/css/main.afcdba4f.chunk.css",
-    "static/js/main.a3b72741.chunk.js"
+    "static/js/2.99e713db.chunk.js",
+    "static/css/main.9b6a7203.chunk.css",
+    "static/js/main.3711f8b8.chunk.js"
   ]
 }

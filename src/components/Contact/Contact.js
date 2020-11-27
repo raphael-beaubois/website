@@ -39,10 +39,10 @@ const Contact = (props) => {
       <input id='form-input' type="text" name="user_name" />
       
       <label className="form-label">Email:</label>
-      <input id='form-input' type="email" name="user_email" />
+      <input id='form-input' type="email" name="user_email" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}"/>
       <label className="form-label">Message:</label>
       <textarea id='form-textarea' name="message" />
-      <input id='input-button' type="submit" value="Click!" onClick={()=>{ window.location.reload(true);    return alert('Envoi de message confirmé ! Merci')}}/>
+      <input id='input-button' type="submit" value="Click!" onClick={()=>{ window.location.reload(true);    return window.confirm('Envoi de message confirmé ! Merci')}}/>
     </form>
     </div>
     </Slide>
