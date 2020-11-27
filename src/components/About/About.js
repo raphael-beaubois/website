@@ -27,10 +27,9 @@ const About = (props) =>{
     padding: '20px'}}>
 
 {!lang ? <h2>MON PARCOURS ....</h2>:<h2>ABOUT ME ....</h2> }
-{!lang ? <p>Issu du monde de la pâtisserie,passionné par l’informatique et
-du domaine du web,j’ai commencé à apprendre à coder en
-autodidacte et decider de faire une reconversion professionnelle
-à l’école O’clock.</p> :
+{!lang ? <p>Issu du monde de la pâtisserie, passionné par l’informatique et du 
+domaine du web, j’ai commencé à apprendre à coder en autodidacte et décidé de 
+faire une reconversion professionnelle à l’école O’clock.</p> :
 
  <p>Coming from the world of pastry making, passionate about computers and the web,
   I started to learn to code on my own and decided to make a professional retraining
@@ -61,15 +60,14 @@ autodidacte et decider de faire une reconversion professionnelle
  :     <p className="vertical-timeline-element-subtitle">O'Clock School, France.</p>
 }
 
-    {!lang ? <p>Le nid a pour but de mettre en relation développeurs et Professionnels en manque de visibilité 
-    et pouvant s'entraider mutuellement. Le développeur met à disposition ses compétences techniques, améliorant,
-     ou créant intégralement le site du professionnel qui, pour sa part, s'engage à laisser apparentes les 
-     références du développeur sur le site.</p> :
+    {!lang ? <p>Le nid a pour but de mettre en relation développeurs et professionnels en manque de visibilité et 
+    pouvant s'entraider mutuellement. Le développeur met à disposition ses compétences techniques, améliorant, ou 
+    créant intégralement le site du professionnel qui, pour sa part, s'engage à laisser apparentes les références 
+    du développeur sur le site. </p> :
      
-      <p>The nest aims to connect developers and Professionals in lack of visibility
-    and being able to help each other. The developer makes his technical skills available, improving,
-     or creating entirely the site of the professional who, for his part, undertakes to leave visible the
-     developer's references on the site.</p> }
+      <p>The nest aims to connect developers and professionals in lack of visibility and being able to help each 
+      other. The developer makes his technical skills available, improving, or creating entirely the site of the 
+      professional who, for his part, undertakes to leave visible the developer's references on the site.</p> }
     
 
   </VerticalTimelineElement>
@@ -96,9 +94,11 @@ autodidacte et decider de faire une reconversion professionnelle
  :     <p className="vertical-timeline-element-subtitle">O'Clock School, France.</p>
 }
 
-{!lang ?  <p>
-    O'clock est une formation intensive en programmation. La formations dur 5 mois, abordant de nombreux sujet, 
-    allant de la programmation orienté objet en PHP, jusqu’à une spécialisation en Javascript/Wordpress.</p>
+{!lang ?  <p>O'clock est une formation intensive en programmation. La formations dure 5 mois, 
+abordant de nombreux sujets, allant de la programmation orientée objet en PHP, jusqu’à une 
+spécialisation en Javascript/Wordpress.
+
+Spé React ⚛️: : JSX, components, lifecycle, npm/yarn, syntax ES2015, ESLint, Redux, Router.</p>
  : 
  
  <p>O'clock is intensive training in programming. The training lasts 5 months, covering many subjects,
@@ -158,7 +158,7 @@ autodidacte et decider de faire une reconversion professionnelle
 
 
 
-{!lang ?     <p>Créations du département patisserie, gamme de produits, organisation du laboratoire. </p>
+{!lang ?     <p>Créations du département pâtisserie, gamme de produits, organisation du laboratoire.  </p>
 : 
     
     <p>Creations of the pastry department, range of products, organization of the laboratory.</p> }
@@ -173,7 +173,7 @@ autodidacte et decider de faire une reconversion professionnelle
     date="2014 - 2015"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
     {!lang ?    <h2 className="vertical-timeline-element-title"  style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>
-    Chef Patissier</h2>
+    Chef pâtissier</h2>
 : 
     <h2 className="vertical-timeline-element-title"  style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>
     Pastry Chef </h2>}
@@ -196,7 +196,7 @@ autodidacte et decider de faire une reconversion professionnelle
     date="2013 - 2014"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
   {!lang ?    <h2 className="vertical-timeline-element-title"  style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>
-    Chef Patissier</h2>
+    Chef pâtissier</h2>
 : 
     
 <h2 className="vertical-timeline-element-title"  style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>
