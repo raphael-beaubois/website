@@ -43,10 +43,17 @@ config={{delay: 400}}
 <div className='contentText'>
 
 <h3>LE NID</h3>
-<p>Projets de fin d'étude: Le Nid a pour but de mettre en relation développeurs et Professionnels en manque de visibilité et 
+
+{!lang ? <p>Projets de fin d'étude: Le Nid a pour but de mettre en relation développeurs et Professionnels en manque de visibilité et 
 pouvant s'entraider mutuellement. Le développeur met à disposition ses compétences techniques, améli
 orant, ou créant intégralement le site du professionnel qui, pour sa part, s'engage à laisser appare
-ntes les références du développeur sur le site.</p>
+ntes les références du développeur sur le site.</p>: 
+
+<p>End of study projects: Le Nid aims to connect developers and Professionals lacking visibility and
+can help each other. The developer provides his technical skills, improved
+orant, or creating entirely the site of the professional who, for his part, undertakes to leave equipment
+ntes the developer's references on the site.</p>}
+
 <a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > --> VOIR ICI... </a>
 
  </div>

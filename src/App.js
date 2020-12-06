@@ -15,13 +15,36 @@ import Project from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
   
 
+// language = localStorage.getItem('lang'); 
 
+// state = {
+//   lang: this.language 
+// }
+
+
+// toggle = () => {
+
+//   const { lang } = this.state;
+//   this.setState({
+//     lang: !lang,
+//   });
+//   localStorage.setItem('lang', !lang)
+// }
+
+//   render(){
+//     //On le mets à false au départ??
+//     //oui Ok
+//    if(localStorage.getItem('lang') === null){
+//       localStorage.setItem('lang', false)
+//    }
 
 
 class App extends Component {
 
+   lang = localStorage.getItem('lang'); 
+
 state = {
-  lang: false,
+  lang: false 
 }
 
 
@@ -34,6 +57,7 @@ toggle = () => {
 }
 
   render(){
+    
     const { lang } = this.state;
   return (
 
@@ -41,6 +65,7 @@ toggle = () => {
 <Switch>
 
 <Route exact path="/">
+
 
 <Navigation  lang={lang} onButtonClick={this.toggle} />
   <Header  lang={lang} onButtonClick={this.toggle} />    

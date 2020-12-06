@@ -36,6 +36,7 @@ faire une reconversion professionnelle à l’école O’clock.</p> :
    at O’clock school.</p> }
 
 
+
 </div>
 
 <div className='about-timeline'>
@@ -69,7 +70,15 @@ faire une reconversion professionnelle à l’école O’clock.</p> :
       other. The developer makes his technical skills available, improving, or creating entirely the site of the 
       professional who, for his part, undertakes to leave visible the developer's references on the site.</p> }
     
+      <p>Technologies:
+      <ul>
+    <li>React / Redux</li>
+    <li>Node JS / Express JS</li>
+  
 
+
+    </ul> 
+    </p>
   </VerticalTimelineElement>
 
 {/* ECOLE O CLOCK */}
@@ -83,7 +92,7 @@ faire une reconversion professionnelle à l’école O’clock.</p> :
 
 
 {!lang ? <h2 className="vertical-timeline-element-title"  style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>
-    Formation Developpeur Web et application mobile</h2> :
+    Formation Développeur Web et Application Mobile</h2> :
     
     
     <h2 className="vertical-timeline-element-title" style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>  Web and mobile application developer Formation</h2> }
@@ -97,16 +106,38 @@ faire une reconversion professionnelle à l’école O’clock.</p> :
 {!lang ?  <p>O'clock est une formation intensive en programmation. La formations dure 5 mois, 
 abordant de nombreux sujets, allant de la programmation orientée objet en PHP, jusqu’à une 
 spécialisation en Javascript/Wordpress.
-
-Spé React ⚛️: : JSX, components, lifecycle, npm/yarn, syntax ES2015, ESLint, Redux, Router.</p>
+</p>
  : 
  
  <p>O'clock is intensive training in programming. The training lasts 5 months, covering many subjects,
     ranging from object-oriented programming in PHP, to a specialization in Javascript/Wordpress.</p> }
 
-   
+    <p>Technologies:
+    <ul>
+    <li>HTML / CSS / SCSS</li>
+    <li>Javascript</li>
+    <li>PHP / LUMEN / LARAVEL</li>
+    <li>Framework CSS: <ul>
+      <li>Bootstrap</li>
+      <li>Bulma</li>
+      <li>Semantic UI</li>
+      <li>Material UI</li>
 
-    <p>Spe React ⚛️: : JSX, components, lifecycle, npm/yarn, syntax ES2015, ESLint, Redux, Router. </p>
+    </ul></li>
+
+    </ul>  
+    </p>
+
+    <p>Spécialisation React ⚛️:
+    <ul>
+    <li>JSX</li>
+    <li>Components</li>
+    <li>Lifecycle</li>
+    <li>NPM / YARN / WEBPACK</li>
+    <li>Redux</li>
+
+    </ul>  
+    </p>
   </VerticalTimelineElement>
 
 {/* MAMIE CLAFOUTIS */}
@@ -130,14 +161,59 @@ Spé React ⚛️: : JSX, components, lifecycle, npm/yarn, syntax ES2015, ESLint
     <p>Mamie Clafoutis</p> }
 
     
-    <p className="vertical-timeline-element-subtitle">Montréal, Canada.</p>
 
-    {!lang ?     <p>Gestion de personnel, mise en place de l'environnement de travail, créations de produits de saison. </p>
+    {!lang ?     <p>
+      <ul>
+    <li>Gestion de personnel</li>
+    <li>Mise en place de l'environnement de travail</li>
+    <li>Résolution de problèmes</li>
+    <li>Travail en autonomie</li>
+    <li>Respect des délais</li>
+    <li>Formation du personnel</li>
+
+
+    </ul> </p>
  :
-  <p>Staff management, setting up of the working environment, creation of seasonal products.</p> }
+  <p>
+  <ul>
+    <li>Staff management</li>
+    <li>Setting up of the working environment</li>
+    <li>Problems solving</li>
+    <li>Works independently</li>
+    <li>Respect of deadlines</li>
+    <li>Staff training</li>
+    </ul></p> }
+    <p className="vertical-timeline-element-subtitle">Montréal, Canada.</p>
 
   </VerticalTimelineElement>
 
+  <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'rgb(104, 104, 104)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="2018"
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+
+{!lang ?  <h2 className="vertical-timeline-element-title"  style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>
+    Début de Formation en Autodidacte sur la Programmation</h2>:
+
+
+    <h2 className="vertical-timeline-element-title"  style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>
+    Beginning of Self-Taught Programming on Programming
+</h2>}
+    <p className="vertical-timeline-element-title"  style={{fontSize: '1.3rem', fontFamily: 'Abel', color: 'white'}}>
+    <ul>
+    <li>Openclassroom</li>
+    <li>Formation Udemy</li>
+    <li>Youtube</li>
+    <li>Livres de programmation</li>
+
+    </ul>
+    </p>
+
+    <p className="vertical-timeline-element-subtitle">Montréal, Canada.</p>
+
+  </VerticalTimelineElement>
 {/* CHOCOLATERIE BONNEAU */}
 
   <VerticalTimelineElement
@@ -148,20 +224,38 @@ Spé React ⚛️: : JSX, components, lifecycle, npm/yarn, syntax ES2015, ESLint
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
 
 {!lang ? <h2 className="vertical-timeline-element-title"  style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>
-    Chef Patissier</h2>: 
+    Chef pâtissier</h2>: 
     
     <h2 className="vertical-timeline-element-title"  style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>Pastry Chef</h2> }
     
     <p className="vertical-timeline-element-title"  style={{fontSize: '1.3rem', fontFamily: 'Abel', color: 'white'}}>
     Chocolaterie Bonneau</p>
-    <p className="vertical-timeline-element-subtitle">Montréal, Canada.</p>
 
 
 
-{!lang ?     <p>Créations du département pâtisserie, gamme de produits, organisation du laboratoire.  </p>
+{!lang ?     <p>
+  <ul>
+    <li>Gestion de personnel</li>
+    <li>Créations du département pâtisserie</li>
+    <li>Résolution de problèmes</li>
+    <li>Travail en autonomie</li>
+    <li>Formation du personnel</li>
+
+
+    </ul>  </p>
 : 
     
-    <p>Creations of the pastry department, range of products, organization of the laboratory.</p> }
+    <p>
+    <ul>
+    <li>Staff management</li>
+    <li>Setting up of the working environment</li>
+    <li>Problems solving</li>
+    <li>Works independently</li>
+    <li>Staff training</li>
+
+
+    </ul> </p> }
+    <p className="vertical-timeline-element-subtitle">Montréal, Canada.</p>
   </VerticalTimelineElement>
 
 {/* PATISSERIE DUBOIS */}
@@ -207,63 +301,8 @@ Spé React ⚛️: : JSX, components, lifecycle, npm/yarn, syntax ES2015, ESLint
 
   </VerticalTimelineElement>
 
-{/* CHOCOlATERIE AUGER */}
-
-<VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(104, 104, 104)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2011 - 2013"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
-
-    <h2 className="vertical-timeline-element-title"  style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>
-    Brevet Technique des Métiers Patisserie, Chocolaterie, Glacerie</h2>
-    <p className="vertical-timeline-element-title"  style={{fontSize: '1.3rem', fontFamily: 'Abel', color: 'white'}}>
-    ESFORMA Charles Peguy <br/>
-    Chocolaterie Auger</p>
-
-    <p className="vertical-timeline-element-subtitle">La-Ferte-Saint-Aubin, France.</p>
-
-  </VerticalTimelineElement>
-
-{/* PATISSERIE BAZIL MENTION*/}
-
-<VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(104, 104, 104)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2010 - 2011"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
 
 
-    <h2 className="vertical-timeline-element-title"  style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>
-    Mentions Complémentaire Dessert à l'assiette</h2>
-    <p className="vertical-timeline-element-title"  style={{fontSize: '1.3rem', fontFamily: 'Abel', color: 'white'}}>
-    ESFORMA Charles Peguy <br/>
-    Arabesque Gourmande</p>
-
-    <p className="vertical-timeline-element-subtitle">Orléans, France.</p>
-
-  </VerticalTimelineElement>
-
-  {/* PATISSERIE BAZIL CAP */}
-
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(104, 104, 104)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-    date="2008 - 2010"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
-
-    <h2 className="vertical-timeline-element-title"  style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>
-    CAP Patisserie</h2>
-    <p className="vertical-timeline-element-title"  style={{fontSize: '1.3rem', fontFamily: 'Abel', color: 'white'}}>
-    ESFORMA Charles Peguy <br/>
-    Arabesque Gourmande</p>
-
-    <p className="vertical-timeline-element-subtitle">Orléans, France.</p>
-
-  </VerticalTimelineElement>
 
   
 {/* BOULANGERIE TENDREPI */}
@@ -274,6 +313,31 @@ Spé React ⚛️: : JSX, components, lifecycle, npm/yarn, syntax ES2015, ESLint
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="2006 - 2008"
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}>
+
+
+<h2 className="vertical-timeline-element-title"  style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>
+    Brevet Technique des Métiers Pâtisserie, Chocolaterie, Glacerie</h2>
+    <p className="vertical-timeline-element-title"  style={{fontSize: '1.3rem', fontFamily: 'Abel', color: 'white'}}>
+    ESFORMA Charles Peguy <br/>
+    Chocolaterie Auger</p>
+
+    <p className="vertical-timeline-element-subtitle">La-Ferté-Saint-Aubin, France.</p><br/><br/>
+    <hr></hr>
+
+<h2 className="vertical-timeline-element-title"  style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>
+    Mentions Complémentaire Dessert à l'assiette</h2>
+    <p className="vertical-timeline-element-title"  style={{fontSize: '1.3rem', fontFamily: 'Abel', color: 'white'}}>
+    ESFORMA Charles Peguy <br/>
+    Arabesque Gourmande</p>
+
+    <p className="vertical-timeline-element-subtitle">Orléans, France.</p><br/><br/><hr></hr>
+      <h2 className="vertical-timeline-element-title"  style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>
+    CAP Pâtisserie</h2>
+    <p className="vertical-timeline-element-title"  style={{fontSize: '1.3rem', fontFamily: 'Abel', color: 'white'}}>
+    ESFORMA Charles Peguy <br/>
+    Arabesque Gourmande</p>
+
+    <p className="vertical-timeline-element-subtitle">Orléans, France.</p><br/><br/><hr></hr>
 
     <h2 className="vertical-timeline-element-title"  style={{fontSize: '2rem', fontFamily: 'Abel', color: 'white'}}>
     CAP Boulangerie</h2>
