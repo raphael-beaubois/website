@@ -4,7 +4,6 @@ import './styles.scss'
 import 'react-vertical-timeline-component/style.min.css';
 import Particles from 'react-particles-js';
 
-import php from '../Skills/img/react.png'
  
 const About = (props) =>{
    
@@ -26,15 +25,29 @@ const About = (props) =>{
     marginTop: '40px',
     padding: '20px'}}>
 
-{!lang ? <h2>MON PARCOURS ....</h2>:<h2>ABOUT ME ....</h2> }
+{!lang ? <h2>MON PARCOURS</h2>:<h2>ABOUT ME</h2> }
 {!lang ? <p>Issu du monde de la pâtisserie, passionné par l’informatique et du 
 domaine du web, j’ai commencé à apprendre à coder en autodidacte et décidé de 
-faire une reconversion professionnelle à l’école O’clock.</p> :
+faire une reconversion professionnelle à l’école O’clock. Mon parcours m'a permis d'acquerir un grand sens de l'imagination
+,de créativité et de rigueur. Ayant une préference particuliere pour design UX/UI, j'aime relevé les défis afin de réaliser les plus belles
+interfaces Web/Application.</p> :
 
- <p>Coming from the world of pastry making, passionate about computers and the web,
+ <p>Coming from the world of pastry , passionate about computers and the web,
   I started to learn to code on my own and decided to make a professional retraining
    at O’clock school.</p> }
 
+   {!lang ? <h4>ET SINON DANS LA VIE PRIVEE ?</h4>:<h4>IN PRIVATE LIFE</h4> }
+
+   {!lang ? <p>
+   
+Et bien disons que je suis ce qu'on peut appeler un geek (sauf que je suis passionnée de sport 🤣). J'aime les jeux vidéo, manga, 
+comics, jeux de société, cardgame. Je suis fan de soccer, football, basket, hockey. Je m'interesse aussi a tout ce qui touche à 
+l'histoire, aux sciences et aux nouvelles technologies. Et pour finir, je dessine et je peins. Voila ! 😁
+   </p>:
+
+ <p>Well let's say I'm what you might call a geek (except that I'm passionate about sports 🤣). I like video games, manga, comics,
+  board games, cardgame. I am a fan of soccer, football, basketball, hockey. I am also interested in everything related to history,
+   science and new technologies. And finally, I draw and I paint. Here is ! 😁</p> }
 
 
 </div>
@@ -64,11 +77,34 @@ faire une reconversion professionnelle à l’école O’clock.</p> :
     {!lang ? <p>Le nid a pour but de mettre en relation développeurs et professionnels en manque de visibilité et 
     pouvant s'entraider mutuellement. Le développeur met à disposition ses compétences techniques, améliorant, ou 
     créant intégralement le site du professionnel qui, pour sa part, s'engage à laisser apparentes les références 
-    du développeur sur le site. </p> :
+    du développeur sur le site. <br/><br/>
+    
+    Sur ce projets, j'ai essentiellement travailler sur la parti Front-end du site:
+    <ul>
+    <li>Design interface</li>
+    <li>Integrations</li>
+    <li>Création des composants React</li>
+    <li>Liaison avec la parti Back-end</li>
+    <li>Mise en place de Redux</li>
+
+    </ul>
+    </p> 
+    
+    :
      
       <p>The nest aims to connect developers and professionals in lack of visibility and being able to help each 
       other. The developer makes his technical skills available, improving, or creating entirely the site of the 
-      professional who, for his part, undertakes to leave visible the developer's references on the site.</p> }
+      professional who, for his part, undertakes to leave visible the developer's references on the site.<br/><br/>
+    
+      On this project, I mainly work on the front-end party website:
+    <ul>
+    <li>Interface design</li>
+    <li>Integrations</li>
+    <li>Creating React components</li>
+    <li>Liaison with the Back-end party</li>
+    <li>Implementation of Redux</li>
+
+    </ul></p> }
     
       <p>Technologies:
       <ul>
