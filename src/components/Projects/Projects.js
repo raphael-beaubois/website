@@ -54,8 +54,12 @@ can help each other. The developer provides his technical skills, improved
 orant, or creating entirely the site of the professional who, for his part, undertakes to leave equipment
 ntes the developer's references on the site.</p>}
 
-<a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > --> VOIR ICI... </a>
+<ul>
+<li><a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > VOIR ICI </a>
+</li>
 
+
+</ul>
  </div>
  </Slide>
 
@@ -68,53 +72,126 @@ ntes the developer's references on the site.</p>}
 </div>
 
 
-{/* <div className='content1'>
+
+<div className='content1'>
 
 
 <Slide left>
 
-<div className='contentText'>
-
-<h3>NOM DU SITE</h3>
-<p>Lorem ipsum dolor sit amet, 
- maximus nunc vel, cursus nulla.  Sed luctus vulputate ullamcorper. Prae
- sent at sem nec nulla commodo pharetra ac sit amet quam. Proin tincidunt in est 
- consectetur molestie. Sed nec metus a est vehicula tincidunt dui.</p>
- </div>
+ <div className='contentImg'>
+<img className='contentIMGIMG' src={lenid}  alt="pic" />
+</div>
  </Slide>
 
  <Slide right>
 
-<div className='contentImg'>
-<img className='contentIMGIMG' src={mockup}  alt="pic" />
-</div>
+ <div className='contentText'>
+
+<h3>MOVIES & ME</h3>
+<p>Application IOS/ANDROID fait avec React Native de recherche de films via une API, possibilité de mettre les films dans une liste
+ de favoris et de partager les films dans d'autres appli.</p>
+<ul>
+
+<li><a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > CODE SOURCE </a>
+</li>
+
+</ul>
+
+
+ </div>
+
 </Slide>
-</div> */}
+</div> 
+
+<div className='content1'>
 
 
-{/* <div className='content1'>
+<Slide left>
+
+ <div className='contentText'>
+
+<h3>ASTRONOMIA</h3>
+<p>Site ayant pour but d'en savoir un peu plus sur notre univers.</p>
+<ul>
+<li><a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > VOIR ICI </a>
+</li>
+<li><a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > CODE SOURCE </a>
+</li>
+
+</ul>
+
+
+ </div>
+ </Slide>
+
+ <Slide right>
+ <div className='contentImg'>
+<img className='contentIMGIMG' src={lenid}  alt="pic" />
+</div>
+
+
+</Slide>
+</div> 
+
+
+ <div className='content1'>
 
 
 
 
 <Slide left>
 
+<div className='contentImg'>
+<img className='contentIMGIMG' src={lenid}  alt="pic" />
+</div>
+ </Slide>
+
+ <Slide right>
 <div className='contentText'>
 
-<h3>NOM DU SITE</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at erat commodo,
- maximus nunc vel, cursus nulla. sit amet quam. Proin tincidunt in est 
- consectetur molestie. Sed nec metus a est vehicula tincidunt dui.</p>
+<h3>CONVERTISSEUR DE MONNAIE</h3>
+<p>Convertisseur fait avec React.</p>
+<ul>
+<li><a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > VOIR ICI </a>
+</li>
+<li><a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > CODE SOURCE </a>
+</li>
+
+</ul>
+ </div>
+
+</Slide>
+</div> 
+
+<div className='content1'>
+
+
+<Slide left>
+
+ <div className='contentText'>
+
+<h3>GRADIENT GENERATOR</h3>
+<p>Générateur de dégrader, possibilité de choisir chaque couleur ainsi que l'orientation.</p>
+<ul>
+<li><a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > VOIR ICI </a>
+</li>
+<li><a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > CODE SOURCE </a>
+</li>
+
+</ul>
+
+
  </div>
  </Slide>
 
  <Slide right>
-
-<div className='contentImg'>
-<img className='contentIMGIMG' src={mockup}  alt="pic" />
+ <div className='contentImg'>
+<img className='contentIMGIMG' src={lenid}  alt="pic" />
 </div>
+
+
 </Slide>
-</div> */}
+</div> 
 
 </div>
 

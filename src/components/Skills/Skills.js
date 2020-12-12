@@ -13,7 +13,7 @@ import Navigation from '../Navigation/Navigation'
 import adobeXD from './img/adobeXD.png';
 import apple from './img/apple.png';
 import bootstrap from './img/bootstrap.png';
-import bulma from './img/bulma.png';
+import swift from './img/swift.png';
 import css3 from './img/css3.png';
 import github from './img/github.png';
 import html5 from './img/html5.png';
@@ -111,7 +111,7 @@ config={{delay: 550}}
 
   from={{ opacity: 0 }}
   to={{ opacity: 1 }}>
-  {props =>     <li style={props}>      <img src={react} className=" skills-img" alt="pic" /><br/>REACT</li>
+  {props =>     <li style={props}>      <img src={react} className=" skills-img" alt="pic" /><br/>REACT / NATIVE</li>
 }
 </Spring> 
 </Roll>
@@ -183,7 +183,7 @@ config={{delay: 550}}
 
   from={{ opacity: 0 }}
   to={{ opacity: 1 }}>
-  {props =>     <li style={props}>      <img src={bulma} className=" skills-img" alt="pic" /><br/>BULMA</li>
+  {props =>     <li style={props}>      <img src={swift} className=" skills-img" alt="pic" /><br/>SWIFT</li>
 }
 </Spring> 
 
