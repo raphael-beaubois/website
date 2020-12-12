@@ -48,6 +48,14 @@
 
 }
 
+.contentIMGIMGIOS{
+    border-radius: 30px;
+    width: 450px;
+    height: 450px;
+ 
+    max-width:700px;
+
+}
 
 
 
@@ -105,7 +113,7 @@ align-self: center;
 }
 
 
-@media only screen and (max-width:769px) { 
+@media only screen and (max-width:770px) { 
     /* CSS rules here */
    
     
@@ -142,6 +150,12 @@ align-self: center;
         max-width: 300px;
         height: auto;
         min-width: 338px; 
+    }
+
+    .contentIMGIMGIOS {
+        max-width: 280px;
+        height: auto;
+        max-height: 280px; 
     }
 
     .content-carrousel{

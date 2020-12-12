@@ -6,7 +6,7 @@ import Roll from 'react-reveal/Roll';
 import Slide from 'react-reveal/Slide';
 import Carroussel from './Carroussel/Carroussel'
 
-import mockup from './mockup.png'
+import AppFilm from './applifilm.png'
 import lenid from './mocklenid.png'
 
 
@@ -66,7 +66,7 @@ ntes the developer's references on the site.</p>}
  <Slide right>
 
 <div className='contentImg'>
-<img className='contentIMGIMG' src={lenid}  alt="pic" />
+<img className='contentIMGIMG' src={lenid}  alt="pic"  />
 </div>
 </Slide>
 </div>
@@ -79,7 +79,7 @@ ntes the developer's references on the site.</p>}
 <Slide left>
 
  <div className='contentImg'>
-<img className='contentIMGIMG' src={lenid}  alt="pic" />
+<img className='contentIMGIMGIOS' src={AppFilm}  alt="pic" />
 </div>
  </Slide>
 
@@ -88,7 +88,7 @@ ntes the developer's references on the site.</p>}
  <div className='contentText'>
 
 <h3>MOVIES & ME</h3>
-<p>Application IOS/ANDROID fait avec React Native de recherche de films via une API, possibilité de mettre les films dans une liste
+<p>Application IOS/ANDROID fait avec React Native. <br/> Movies and me est une app recherche de films via une API, possibilité de mettre les films dans une liste
  de favoris et de partager les films dans d'autres appli.</p>
 <ul>
 
