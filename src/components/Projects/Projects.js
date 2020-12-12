@@ -8,7 +8,8 @@ import Carroussel from './Carroussel/Carroussel'
 
 import AppFilm from './applifilm.png'
 import lenid from './mocklenid.png'
-
+import galaxia from './galaxia-mock.png'
+import converter from './convertermock.png'
 
 const Project = (props) => {
   const { lang  } = props;
@@ -114,7 +115,7 @@ ntes the developer's references on the site.</p>}
 
  <div className='contentText'>
 
-<h3>ASTRONOMIA</h3>
+<h3>GALAXIA</h3>
 <p>Site ayant pour but d'en savoir un peu plus sur notre univers.</p>
 <div className='contentTextButton'>
 
@@ -128,7 +129,7 @@ ntes the developer's references on the site.</p>}
 
  <Slide right>
  <div className='contentImg'>
-<img className='contentIMGIMG' src={lenid}  alt="pic" />
+<img className='contentIMGIMG' src={galaxia}  alt="pic" />
 </div>
 
 
@@ -157,7 +158,7 @@ ntes the developer's references on the site.</p>}
  <Slide right>
 
 <div className='contentImg'>
-<img className='contentIMGIMG' src={lenid}  alt="pic" />
+<img className='contentIMGIMG' src={converter}  alt="pic" />
 </div>
 
 </Slide>
