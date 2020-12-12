@@ -54,12 +54,14 @@ can help each other. The developer provides his technical skills, improved
 orant, or creating entirely the site of the professional who, for his part, undertakes to leave equipment
 ntes the developer's references on the site.</p>}
 
-<ul>
-<li><a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > VOIR ICI </a>
-</li>
+
+<div className='contentTextButton'>
+
+<a href='https://www.lenid.tech' target='_blank' className='button-code' > VOIR ICI </a>
+
+</div>
 
 
-</ul>
  </div>
  </Slide>
 
@@ -78,27 +80,29 @@ ntes the developer's references on the site.</p>}
 
 <Slide left>
 
- <div className='contentImg'>
-<img className='contentIMGIMGIOS' src={AppFilm}  alt="pic" />
-</div>
- </Slide>
-
- <Slide right>
-
  <div className='contentText'>
 
 <h3>MOVIES & ME</h3>
 <p>Application IOS/ANDROID fait avec React Native. <br/> Movies and me est une app recherche de films via une API, possibilité de mettre les films dans une liste
  de favoris et de partager les films dans d'autres appli.</p>
-<ul>
 
-<li><a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > CODE SOURCE </a>
-</li>
+ <div className='contentTextButton'>
 
-</ul>
+<a href='https://github.com/Thailz/MoviesAndMe' target='_blank' className='button-code' > CODE SOURCE </a>
+
+</div>
+
+
 
 
  </div>
+ </Slide>
+
+ <Slide right>
+ <div className='contentImg'>
+<img className='contentIMGIMGIOS' src={AppFilm}  alt="pic" />
+</div>
+
 
 </Slide>
 </div> 
@@ -112,13 +116,11 @@ ntes the developer's references on the site.</p>}
 
 <h3>ASTRONOMIA</h3>
 <p>Site ayant pour but d'en savoir un peu plus sur notre univers.</p>
-<ul>
-<li><a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > VOIR ICI </a>
-</li>
-<li><a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > CODE SOURCE </a>
-</li>
+<div className='contentTextButton'>
 
-</ul>
+<a href='https://github.com/Thailz/Astronomia' target='_blank' className='button-code' > CODE SOURCE </a>
+
+</div>
 
 
  </div>
@@ -140,25 +142,23 @@ ntes the developer's references on the site.</p>}
 
 
 <Slide left>
-
-<div className='contentImg'>
-<img className='contentIMGIMG' src={lenid}  alt="pic" />
-</div>
- </Slide>
-
- <Slide right>
 <div className='contentText'>
 
 <h3>CONVERTISSEUR DE MONNAIE</h3>
 <p>Convertisseur fait avec React.</p>
-<ul>
-<li><a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > VOIR ICI </a>
-</li>
-<li><a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > CODE SOURCE </a>
-</li>
+<div className='contentTextButton'>
 
-</ul>
+<a href='https://github.com/Thailz/Converter' target='_blank' className='button-code' > CODE SOURCE </a>
+
+</div>
  </div>
+ </Slide>
+
+ <Slide right>
+
+<div className='contentImg'>
+<img className='contentIMGIMG' src={lenid}  alt="pic" />
+</div>
 
 </Slide>
 </div> 
@@ -172,14 +172,11 @@ ntes the developer's references on the site.</p>}
 
 <h3>GRADIENT GENERATOR</h3>
 <p>Générateur de dégrader, possibilité de choisir chaque couleur ainsi que l'orientation.</p>
-<ul>
-<li><a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > VOIR ICI </a>
-</li>
-<li><a href='https://www.lenid.tech' target='_blank' style={{textDecoration: 'none'}} > CODE SOURCE </a>
-</li>
+<div className='contentTextButton'>
 
-</ul>
+<a href='https://github.com/O-clock-II/gradient-vanilla-Thailz' target='_blank' className='button-code' > CODE SOURCE </a>
 
+</div>
 
  </div>
  </Slide>

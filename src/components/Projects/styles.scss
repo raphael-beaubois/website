@@ -23,6 +23,29 @@
 
 }
 
+.button-code{
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding: 13px 35px;
+    border-radius: 6px;
+    list-style: none;
+    margin-top: 25px;
+    transition:  ease-in-out;
+
+    &:hover{
+        background-color: rgb(80, 80, 80);
+    }
+}
+
+.contentText p {
+    margin-bottom: 20px;
+}
+
+.contentTextButton{
+    margin-top: 40px;
+}
+
 .maquette-content{
     display: flex;
     flex-wrap: wrap;
@@ -52,7 +75,7 @@
     border-radius: 30px;
     width: 450px;
     height: 450px;
- 
+ margin-left: 80px;
     max-width:700px;
 
 }
@@ -150,12 +173,15 @@ align-self: center;
         max-width: 300px;
         height: auto;
         min-width: 338px; 
+        margin-top: 60px;
     }
 
     .contentIMGIMGIOS {
         max-width: 280px;
         height: auto;
         max-height: 280px; 
+        margin-top: 60px;
+        margin-left: 0px;
     }
 
     .content-carrousel{
