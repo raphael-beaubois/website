@@ -73,10 +73,11 @@
 
 .contentIMGIMGIOS{
     border-radius: 30px;
-    width: 450px;
-    height: 450px;
- margin-left: 80px;
+    width: 400px;
+    height: auto;
+ margin-left: 200px;
     max-width:700px;
+    padding: 50px;
 
 }
 
@@ -84,9 +85,10 @@
 
 .contentIMGIMG{
     margin: auto;
-    max-width:700px;
+    max-width: 550px;
     height: auto;
-    
+    display: block;
+    padding: 50px;
 }
 
 
@@ -170,14 +172,16 @@ align-self: center;
     }
 
     .contentIMGIMG {
-        max-width: 300px;
+        max-width: 200px;
         height: auto;
-        min-width: 338px; 
-        margin-top: 60px;
+        min-width: 238px;
+        margin-top: 70px;
+        /* margin-right: 29px; */
+        padding: 0px;
     }
 
     .contentIMGIMGIOS {
-        max-width: 280px;
+        max-width: 200px;
         height: auto;
         max-height: 280px; 
         margin-top: 60px;
@@ -224,5 +228,9 @@ align-self: center;
         justify-content: center;
         height: 500px;
         margin: auto;
+    }
+
+    .particle{
+        display: none;
     }
 }

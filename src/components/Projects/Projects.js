@@ -163,32 +163,6 @@ ntes the developer's references on the site.</p>}
 </Slide>
 </div> 
 
-<div className='content1'>
-
-
-<Slide left>
-
- <div className='contentText'>
-
-<h3>GRADIENT GENERATOR</h3>
-<p>Générateur de dégrader, possibilité de choisir chaque couleur ainsi que l'orientation.</p>
-<div className='contentTextButton'>
-
-<a href='https://github.com/O-clock-II/gradient-vanilla-Thailz' target='_blank' className='button-code' > CODE SOURCE </a>
-
-</div>
-
- </div>
- </Slide>
-
- <Slide right>
- <div className='contentImg'>
-<img className='contentIMGIMG' src={lenid}  alt="pic" />
-</div>
-
-
-</Slide>
-</div> 
 
 </div>
 
@@ -216,6 +190,7 @@ config={{delay: 400}}
 
 </div>
 </div> */}
+<div className='particle'>
   <Particles  params={{
   "autoPlay": true,
   "background": {
@@ -676,7 +651,7 @@ config={{delay: 400}}
   "themes": []
 }
 }  />
-
+</div>
 
 </div>
 );
