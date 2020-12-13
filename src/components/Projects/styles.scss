@@ -60,13 +60,13 @@
 .project h2{
     text-align: center;
     margin: auto;
-    width: 100%;
     display: block;
     color: white;
     font-family: 'Abel', sans-serif;
     font-size: 3rem;
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-right: 90px;
 
 
 }
@@ -138,7 +138,118 @@ align-self: center;
 }
 
 
+@media only screen and (max-width:1024px) { 
+ 
+    .contentIMGIMG {
+        height: auto;
+        min-width: 238px;
+        margin-top: 70px;
+        /* margin-right: 29px; */
+        padding: 0px;
+    }
+    /* CSS rules here */
+}
+    
+    
+
 @media only screen and (max-width:770px) { 
+    /* CSS rules here */
+   
+    
+    
+    .project{
+    
+        height:auto;
+            margin: auto;
+            /* font-size: 0px; */
+            display: contents;
+
+    
+}
+
+    .project-content{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+        margin: auto;
+        margin-top: 70px;
+        margin-left: 100px;
+    
+    }
+
+    .contentImg {
+        width: 50%;
+        
+    }
+
+    .contentIMGIMG {
+        height: auto;
+        min-width: 238px;
+        margin-top: 70px;
+        /* margin-right: 29px; */
+        padding: 0px;
+        
+    }
+
+    .contentIMGIMGIOS {
+        height: auto;
+        max-height: 280px; 
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+
+    .content-carrousel{
+
+        min-width: 350px;
+    width: 100%;
+    }
+
+    .content-content1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+
+.content1{
+    display: flex;
+    flex-wrap: wrap;
+        width: 100%;
+        margin: 30px;
+        color: white;
+        font-family: 'Abel', sans-serif;
+        font-size: 1.4rem;
+        border-bottom: solid 1px white;
+    }
+
+    .contentText {
+        height: auto;
+        /* margin: auto; */
+        width: 100%;
+        /* margin: 21px; */
+        text-align: center;
+    }
+
+    .maquette-content{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        justify-content: center;
+        height: 500px;
+        margin: auto;
+    }
+
+    .particle{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:380px) { 
     /* CSS rules here */
    
     
