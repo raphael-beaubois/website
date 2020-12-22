@@ -59,6 +59,7 @@ toggle = () => {
   render(){
     
     const { lang } = this.state;
+    
   return (
 
     <div className="App">

@@ -18,11 +18,19 @@
 .lang-button{
     width: 50px;
     margin-left: 5px;
+    margin-bottom: 110px
 }
 
 .lang-button-fr{
     width: 40px;
     margin-left: 10px;
+        margin-bottom: 110px
+
+}
+
+.navigation-link{
+    text-decoration: none;
+    color: white;
 }
 
 .react-reveal {
@@ -97,7 +105,7 @@ body{
         position: fixed;
        height: 6%;
         top: 0;
-        padding:25px;
+        padding:20px;
         border-radius: 0px 0px 10px 0px;
         z-index: 9999;
         box-shadow: 15px 0px 10px 12px rgba(20, 20, 20, 0.75);
@@ -131,5 +139,16 @@ body{
     .navigation ul li p {
         display: none;
     }
+.lang-button{
+    width: 50px;
+    margin-left: 5px;
+    margin-bottom: 0px
+}
 
+.lang-button-fr{
+    width: 40px;
+    margin-left: 10px;
+        margin-bottom: 0px
+
+}
 }

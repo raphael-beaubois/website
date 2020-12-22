@@ -84,8 +84,15 @@ ntes the developer's references on the site.</p>}
  <div className='contentText'>
 
 <h3>MOVIES & ME</h3>
-<p>Application IOS/ANDROID fait avec React Native. <br/> Movies and me est une app recherche de films via une API, possibilité de mettre les films dans une liste
+
+ {!lang ? <p>Application IOS/ANDROID fait avec React Native. <br/> Movies and me est une app recherche de films via une API,
+  possibilité de mettre les films dans une liste
  de favoris et de partager les films dans d'autres appli.</p>
+ :
+ <p>IOS/ANDROID application made with React Native. <br/> Movies and me is an API movie search app,
+  possibility to put the films in a list
+ favorites and share the movies in other apps.</p>}
+
 
  <div className='contentTextButton'>
 
@@ -116,7 +123,14 @@ ntes the developer's references on the site.</p>}
  <div className='contentText'>
 
 <h3>GALAXIA</h3>
-<p>Site ayant pour but d'en savoir un peu plus sur notre univers.</p>
+{!lang ? <p>Site ayant pour but d'en savoir un peu plus sur notre univers.</p>
+
+:<p>Site aiming to know a little more about our universe.
+</p>}
+
+
+
+
 <div className='contentTextButton'>
 
 <a href='https://github.com/Thailz/Astronomia' target='_blank' className='button-code' > CODE SOURCE </a>

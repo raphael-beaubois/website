@@ -49,6 +49,10 @@ const Skills = (props) => {
 <div className="skills-part-one">
 
 
+{/* ========================================================================================================= */}
+{/* ========================================================================================================= */}
+{/* ========================================================================================================= */}
+
 
 <div className='skills-front'>
   {!lang ? <Slide top>
@@ -71,7 +75,7 @@ config={{delay: 400}}
 <ul className='skills-design-ul'>
 
 
-<Roll right>
+<Roll bottom>
 <Spring
     config={{delay: 500}}
   from={{ opacity: 0 }}
@@ -81,7 +85,7 @@ config={{delay: 400}}
 </Spring>         </Roll>
 
 
-        <Roll right>
+        <Roll top>
 
 <Spring
 config={{delay: 550}}
@@ -92,7 +96,7 @@ config={{delay: 550}}
 </Spring> 
 
 </Roll>
-        <Roll right>
+        <Roll bottom>
 
 <Spring
     config={{delay: 600}}
@@ -104,7 +108,7 @@ config={{delay: 550}}
 </Spring> 
 </Roll>
 
-        <Roll right>
+        <Roll top>
 
 <Spring
     config={{delay: 650}}
@@ -116,7 +120,7 @@ config={{delay: 550}}
 </Spring> 
 </Roll>
 
-        <Roll right>
+        <Roll bottom>
 
 <Spring
     config={{delay: 700}}
@@ -128,7 +132,7 @@ config={{delay: 550}}
 </Spring> 
 </Roll>
 
-        <Roll right>
+        <Roll top>
 
 <Spring
     config={{delay: 750}}
@@ -140,7 +144,7 @@ config={{delay: 550}}
 </Spring> 
 </Roll>
 
-        <Roll right>
+        <Roll bottom>
 
 <Spring
     config={{delay: 800}}
@@ -152,7 +156,7 @@ config={{delay: 550}}
 </Spring> 
 </Roll>
 
-        <Roll right>
+        <Roll top>
 
 <Spring
     config={{delay: 850}}
@@ -164,7 +168,7 @@ config={{delay: 550}}
 </Spring> 
 
 </Roll>
-        <Roll right>
+        <Roll bottom>
 
 <Spring
     config={{delay: 900}}
@@ -176,7 +180,7 @@ config={{delay: 550}}
 </Spring> 
 
 </Roll>
-        <Roll right>
+        <Roll top>
 
 <Spring
     config={{delay: 950}}
@@ -188,7 +192,7 @@ config={{delay: 550}}
 </Spring> 
 
 </Roll>
-        <Roll right>
+        <Roll bottom>
 
 <Spring
     config={{delay: 1000}}
@@ -200,7 +204,7 @@ config={{delay: 550}}
 </Spring> 
 </Roll>
 
-        <Roll right>
+        <Roll top>
 
 <Spring
     config={{delay: 1050}}
@@ -212,12 +216,19 @@ config={{delay: 550}}
 </Spring> </Roll>
 </ul>
  </div>
+
+{/* ========================================================================================================= */}
+{/* ========================================================================================================= */}
+{/* ========================================================================================================= */}
+
+
+
  </div>
 
 <div className="skills-part2">       
 
 
- <Slide left>
+ <Slide bottom>
 <Spring
 config={{delay: 400}}
   from={{ opacity: 0}}
@@ -230,7 +241,7 @@ config={{delay: 400}}
 
  <div className='skills-design'>
 
- <ul className='skills-design-ul'>        <Roll right>
+ <ul className='skills-design-ul'>        <Roll top>
 
  <Spring
     config={{delay: 1150}}
@@ -242,7 +253,7 @@ config={{delay: 400}}
 </Spring> 
 </Roll>
 
-        <Roll right>
+        <Roll bottom>
 
 <Spring
     config={{delay: 1200}}
@@ -254,7 +265,7 @@ config={{delay: 400}}
 </Spring>
 </Roll>
 
-        <Roll right>
+        <Roll top>
 
  <Spring
     config={{delay: 1250}}
@@ -266,7 +277,7 @@ config={{delay: 400}}
 </Spring> 
 </Roll>
 
-        <Roll right>
+        <Roll bottom>
 
 <Spring
     config={{delay: 1350}}
@@ -278,7 +289,7 @@ config={{delay: 400}}
 </Spring> 
 </Roll>
 
-        <Roll right>
+        <Roll top>
 
 <Spring
     config={{delay: 1450}}
@@ -311,7 +322,7 @@ config={{delay: 400}}
 </Spring>         </Slide> }
  <div className='skills-other'>
 
- <ul className='skills-design-ul'>        <Roll right>
+ <ul className='skills-design-ul'>        <Roll top>
 
  <Spring
     config={{delay: 1750}}
@@ -322,7 +333,7 @@ config={{delay: 400}}
 }
 </Spring> 
 </Roll>
-        <Roll right>
+        <Roll bottom>
 
 <Spring
     config={{delay: 1850}}
@@ -333,7 +344,7 @@ config={{delay: 400}}
 }
 </Spring> 
 </Roll>
-        <Roll right>
+        <Roll top>
 
 <Spring
     config={{delay: 1950}}
@@ -344,7 +355,7 @@ config={{delay: 400}}
 }
 </Spring> 
 </Roll>
-        <Roll right>
+        <Roll bottom>
 
 <Spring
     config={{delay: 2050}}
@@ -359,6 +370,12 @@ config={{delay: 400}}
 </ul>
  </div>
 </div>
+
+{/* ========================================================================================================= */}
+{/* ========================================================================================================= */}
+{/* ========================================================================================================= */}
+
+
   <Particles  params={{
   "autoPlay": true,
   "background": {
@@ -427,7 +444,7 @@ config={{delay: 400}}
         "distance": 200
       },
       "bubble": {
-        "distance": 400,
+        "distance": 100,
         "duration": 2,
         "opacity": 0.8,
         "size": 40
@@ -440,7 +457,7 @@ config={{delay: 400}}
         "radius": 60
       },
       "grab": {
-        "distance": 400,
+        "distance": 100,
         "links": {
           "blink": false,
           "consent": false,
@@ -459,12 +476,7 @@ config={{delay: 400}}
           },
           "radius": 1000
         },
-        "shadow": {
-          "color": {
-            "value": "#000000"
-          },
-          "length": 2000
-        }
+        
       },
       "push": {
         "quantity": 4
