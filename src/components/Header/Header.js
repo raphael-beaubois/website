@@ -1,9 +1,6 @@
 import React from 'react';
 import './styles.scss';
 import Particles from 'react-particles-js';
-import MediaQuery from 'react-responsive'
-
-
 
 import Tilt from "react-parallax-tilt";
 import TextyAnim from 'rc-texty';
@@ -12,12 +9,7 @@ import Rotate from 'react-reveal/Rotate';
 import Zoom from 'react-reveal/Zoom';
 import Slide from 'react-reveal/Slide';
 
-
-
-
-
 import ufo from './ufo.png';
-import boucle from './boucle.png'
 
 
 
@@ -32,11 +24,6 @@ const styles = {
     }
   };
 
-  const text = 'Hey,';
-  const text2 = 'Je suis Raphael';
-  const text3 = 'Développeur Web';
-
-  const text4= 'Dev Web'
   
 
 
@@ -60,7 +47,7 @@ const Header = (props) => {
      <div className='h1-responsive'>
      {!lang ? <Slide top ><p>Hey,</p> </Slide> : <Slide top ><p>Hi,</p> </Slide>}
      {!lang ?
-      <Slide left big><p>Je suis  <span className='header-R'>R</span>aphaël.</p>
+      <Slide left ><p>Je suis  <span className='header-R'>R</span>aphaël.</p>
       </Slide>  :
        <Slide left big><p> I'm  <span className='header-R'>R</span>aphael.</p>
       </Slide> }
@@ -592,10 +579,10 @@ const Header = (props) => {
 <Tilt
       className="parallax-effect-img"
    
-      scale={1.3}
-      duration={2}
+      scale={1.1}
+      duration={5}
     >
-      <img src={ufo} className="inner-element img-ufo" alt="pic" />
+      <img src={ufo} className=" img-ufo" alt="pic" />
 
     </Tilt>        </Zoom>
 

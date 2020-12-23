@@ -24,10 +24,10 @@ const Project = (props) => {
 <Spring
 config={{delay: 400}}
   from={{ opacity: 0}}
-  to={{ opacity: 1 }}>
+  to={{ opacity: 1 , textAlign: "center", margin: 'revert', marginTop: 30}}>
   
   
-  {props => <h2 style={props}> PROJECTS</h2>}
+  {props => <h2 style={props} className='title'> PROJECTS</h2>}
 </Spring>        
 </Slide>
 
@@ -39,7 +39,7 @@ config={{delay: 400}}
 <div className='content1'>
 
 
-<Slide left>
+<Slide bottom>
 
 <div className='contentText'>
 
@@ -66,7 +66,7 @@ ntes the developer's references on the site.</p>}
  </div>
  </Slide>
 
- <Slide right>
+ <Slide bottom>
 
 <div className='contentImg'>
 <img className='contentIMGIMG' src={lenid}  alt="pic"  />
@@ -79,7 +79,7 @@ ntes the developer's references on the site.</p>}
 <div className='content1'>
 
 
-<Slide left>
+<Slide bottom>
 
  <div className='contentText'>
 
@@ -106,7 +106,7 @@ ntes the developer's references on the site.</p>}
  </div>
  </Slide>
 
- <Slide right>
+ <Slide bottom>
  <div className='contentImg'>
 <img className='contentIMGIMGIOS' src={AppFilm}  alt="pic" />
 </div>
@@ -141,7 +141,7 @@ ntes the developer's references on the site.</p>}
  </div>
  </Slide>
 
- <Slide right>
+ <Slide bottom>
  <div className='contentImg'>
 <img className='contentIMGIMG' src={galaxia}  alt="pic" />
 </div>
@@ -156,7 +156,7 @@ ntes the developer's references on the site.</p>}
 
 
 
-<Slide left>
+<Slide bottom>
 <div className='contentText'>
 
 <h3>CONVERTISSEUR DE MONNAIE</h3>
@@ -169,7 +169,7 @@ ntes the developer's references on the site.</p>}
  </div>
  </Slide>
 
- <Slide right>
+ <Slide bottom>
 
 <div className='contentImg'>
 <img className='contentIMGIMG' src={converter}  alt="pic" />

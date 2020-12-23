@@ -11,6 +11,11 @@
     
     
 }
+
+.title{
+    text-align: center;
+}
+
 .project-content{
     display: flex;
     flex-wrap: wrap;
@@ -58,24 +63,19 @@
 }
 
 .project h2{
-    text-align: center;
-    margin: auto;
-    display: block;
+    
     color: white;
     font-family: 'Abel', sans-serif;
     font-size: 3rem;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-right: 90px;
-
+   
 
 }
 
 .contentIMGIMGIOS{
     border-radius: 30px;
-    width: 400px;
+    width: 70%;
     height: auto;
- margin-left: 200px;
+    margin: auto;
     max-width:700px;
     padding: 50px;
 
@@ -87,6 +87,7 @@
     margin: auto;
     max-width: 650px;
     height: auto;
+    width: -webkit-fill-available;
     display: block;
     padding: 50px;
 }
@@ -182,7 +183,7 @@ align-self: center;
     }
 
     .contentImg {
-        width: 50%;
+        width: 100%;
         
     }
 
@@ -197,7 +198,6 @@ align-self: center;
 
     .contentIMGIMGIOS {
         height: auto;
-        max-height: 280px; 
         margin-top: 60px;
         margin-left: 0px;
     }
@@ -249,7 +249,7 @@ align-self: center;
     }
 }
 
-@media only screen and (max-width:380px) { 
+@media only screen and (max-width:480px) { 
     /* CSS rules here */
    
     
@@ -278,7 +278,7 @@ align-self: center;
     }
 
     .contentImg {
-        width: 50%;
+        width: 100%;
         
     }
 
@@ -294,7 +294,6 @@ align-self: center;
     .contentIMGIMGIOS {
         max-width: 200px;
         height: auto;
-        max-height: 280px; 
         margin-top: 60px;
         margin-left: 0px;
     }

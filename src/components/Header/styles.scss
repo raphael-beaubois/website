@@ -27,10 +27,32 @@
     z-index: 0;
 }
 
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+    }
+    25% {
+        transform: translatex(120px);
+        
+	}
+	50% {
+        transform: translatey(-120px);
+        
+    }
+    
+    75% {
+        transform: translatex(-140px);
+        
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
 
 .header-R{
     color: rgb(49, 199, 245);
-    text-shadow: -6px 0px 0px rgb(211, 0, 123);
+    text-shadow: -6px 0px 0px rgb(63, 0, 211);
     transition: 0.5s ease-in-out;
   }
 
@@ -50,7 +72,9 @@
 }
 
 .img-ufo{
-    width: 600px;
+    width: 500px;
+    animation: float 10s ease-in-out infinite;
+
 }
 
 .header-left-content{
