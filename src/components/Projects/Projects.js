@@ -45,12 +45,11 @@ config={{delay: 400}}
 
 <h3>LE NID</h3>
 
-{!lang ? <p>Projets de fin d'étude: Le Nid a pour but de mettre en relation développeurs et Professionnels en manque de visibilité et 
-pouvant s'entraider mutuellement. Le développeur met à disposition ses compétences techniques, améli
-orant, ou créant intégralement le site du professionnel qui, pour sa part, s'engage à laisser appare
+{!lang ? <p style={{textAlign: 'justify'}}>Projets de fin d'étude: Le Nid a pour but de mettre en relation développeurs et Professionnels en manque de visibilité et 
+pouvant s'entraider mutuellement. Le développeur met à disposition ses compétences techniques,ou en créant intégralement le site du professionnel qui, pour sa part, s'engage à laisser appare
 ntes les références du développeur sur le site.</p>: 
 
-<p>End of study projects: Le Nid aims to connect developers and Professionals lacking visibility and
+<p style={{textAlign: 'justify'}}>End of study projects: Le Nid aims to connect developers and Professionals lacking visibility and
 can help each other. The developer provides his technical skills, improved
 orant, or creating entirely the site of the professional who, for his part, undertakes to leave equipment
 ntes the developer's references on the site.</p>}
@@ -85,11 +84,11 @@ ntes the developer's references on the site.</p>}
 
 <h3>MOVIES & ME</h3>
 
- {!lang ? <p>Application IOS/ANDROID fait avec React Native. <br/> Movies and me est une app recherche de films via une API,
+ {!lang ? <p style={{textAlign: 'justify'}}>Application IOS/ANDROID fait avec React Native. <br/> Movies and me est une app recherche de films via une API,
   possibilité de mettre les films dans une liste
  de favoris et de partager les films dans d'autres appli.</p>
  :
- <p>IOS/ANDROID application made with React Native. <br/> Movies and me is an API movie search app,
+ <p style={{textAlign: 'justify'}}>IOS/ANDROID application made with React Native. <br/> Movies and me is an API movie search app,
   possibility to put the films in a list
  favorites and share the movies in other apps.</p>}
 

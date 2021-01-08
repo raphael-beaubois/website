@@ -101,12 +101,6 @@ const Header = (props) => {
 
   
     </div>
-
-
-
-
-
-  
     <div id='content-img' style={styles.root}>
   
    
@@ -159,166 +153,12 @@ const Header = (props) => {
         "type": "circle"
       },
       "onHover": {
-        "enable": true,
-        "mode": "connect",
-        "parallax": {
-          "enable": false,
-          "force": 2,
-          "smooth": 10
-        }
+       
+        
       },
       "resize": true
     },
-    "modes": {
-      "attract": {
-        "distance": 200,
-        "duration": 0.4,
-        "speed": 1
-      },
-      "bounce": {
-        "distance": 200
-      },
-      "bubble": {
-        "distance": 400,
-        "duration": 2,
-        "opacity": 0.8,
-        "size": 40
-      },
-      "connect": {
-        "distance": 80,
-        "links": {
-          "opacity": 0.5
-        },
-        "radius": 60
-      },
-      "grab": {
-        "distance": 400,
-        "links": {
-          "blink": false,
-          "consent": false,
-          "opacity": 1
-        }
-      },
-      "light": {
-        "area": {
-          "gradient": {
-            "start": {
-              "value": "#ffffff"
-            },
-            "stop": {
-              "value": "#000000"
-            }
-          },
-          "radius": 1000
-        },
-        "shadow": {
-          "color": {
-            "value": "#000000"
-          },
-          "length": 2000
-        }
-      },
-      "push": {
-        "quantity": 4
-      },
-      "remove": {
-        "quantity": 2
-      },
-      "repulse": {
-        "distance": 200,
-        "duration": 0.4,
-        "speed": 1
-      },
-      "slow": {
-        "factor": 3,
-        "radius": 200
-      },
-      "trail": {
-        "delay": 1,
-        "quantity": 1,
-        "particles": {
-          "bounce": {
-            "horizontal": {
-              "random": {}
-            },
-            "vertical": {
-              "random": {}
-            }
-          },
-          "collisions": {
-            "bounce": {
-              "horizontal": {
-                "random": {}
-              },
-              "vertical": {
-                "random": {}
-              }
-            }
-          },
-          "color": {
-            "animation": {}
-          },
-          "life": {
-            "delay": {
-              "random": {}
-            },
-            "duration": {
-              "random": {}
-            }
-          },
-          "links": {
-            "shadow": {},
-            "triangles": {}
-          },
-          "move": {
-            "angle": {},
-            "attract": {
-              "rotate": {}
-            },
-            "gravity": {},
-            "noise": {
-              "delay": {
-                "random": {}
-              }
-            },
-            "outModes": {},
-            "trail": {}
-          },
-          "number": {
-            "density": {}
-          },
-          "opacity": {
-            "animation": {},
-            "random": {}
-          },
-          "rotate": {
-            "animation": {}
-          },
-          "shadow": {
-            "offset": {}
-          },
-          "shape": {},
-          "size": {
-            "animation": {},
-            "random": {}
-          },
-          "stroke": {
-            "color": {
-              "value": "",
-              "animation": {
-                "enable": false,
-                "speed": 0,
-                "sync": false
-              }
-            }
-          },
-          "twinkle": {
-            "lines": {},
-            "particles": {}
-          }
-        }
-      }
-    }
+    
   },
   "manualParticles": [],
   "motion": {
@@ -476,58 +316,15 @@ const Header = (props) => {
       "limit": 50,
       "value": 70
     },
-    "opacity": {
-      "random": {
-        "enable": false,
-        "minimumValue": 0.1
-      },
-      "value": 0.5,
-      "animation": {
-        "enable": false,
-        "minimumValue": 0.1,
-        "speed": 3,
-        "sync": false
-      }
-    },
-    "reduceDuplicates": false,
-    "rotate": {
-      "random": {
-        "enable": false,
-        "minimumValue": 0
-      },
-      "value": 0,
-      "animation": {
-        "enable": false,
-        "speed": 0,
-        "sync": false
-      },
-      "direction": "clockwise",
-      "path": false
-    },
-    "shadow": {
-      "blur": 0,
-      "color": {
-        "value": "#000000"
-      },
-      "enable": false,
-      "offset": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    "shape": {
-      "options": {
-        "polygon": {
-          "sides": 5
-        },
-        "image": {
-          "src": "https://cdn.matteobruni.it/images/particles/github.svg",
-          "width": 100,
-          "height": 100
-        }
-      },
-      "type": "circle"
-    },
+  
+   
+   
+
+
+
+
+
+
     "size": {
       "random": {
         "enable": true,
@@ -543,29 +340,8 @@ const Header = (props) => {
         "sync": false
       }
     },
-    "stroke": {
-      "width": 0,
-      "color": {
-        "value": "",
-        "animation": {
-          "enable": false,
-          "speed": 0,
-          "sync": false
-        }
-      }
-    },
-    "twinkle": {
-      "lines": {
-        "enable": false,
-        "frequency": 0.05,
-        "opacity": 1
-      },
-      "particles": {
-        "enable": false,
-        "frequency": 0.05,
-        "opacity": 1
-      }
-    }
+  
+   
   },
   "pauseOnBlur": true,
   "themes": []
@@ -579,7 +355,7 @@ const Header = (props) => {
 <Tilt
       className="parallax-effect-img"
    
-      scale={1.1}
+      scale={1}
       duration={5}
     >
       <img src={ufo} className=" img-ufo" alt="pic" />

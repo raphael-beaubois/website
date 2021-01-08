@@ -17,20 +17,23 @@ const About = (props) =>{
 <div className='about-head' style={{ 
       textAlign: 'center',
     margin: 'auto',
-    width: '100%',
+    marginTop: 50,
+    marginBottom: '50px',
+    width: '85%',
     display: 'block',
     color: 'white',
     fontFamily: 'Abel',
-    fontSize: '2rem',
+    fontSize: '1.3rem',
     marginTop: '40px',
+    textAlign: 'justify',
+  textJustify: 'inter-word',
     padding: '20px'}}>
 
-{!lang ? <h2>MON PARCOURS</h2>:<h2>ABOUT ME</h2> }
-{!lang ? <p>Issu du monde de la pâtisserie, passionné par l’informatique et du 
-domaine du web, j’ai commencé à apprendre à coder en autodidacte et décidé de 
-faire une reconversion professionnelle à l’école O’clock. Mon parcours m'a permis d'acquerir un grand sens de l'imagination
-,de créativité et de rigueur. Ayant une préference particuliere pour design UX/UI, j'aime relevé les défis afin de réaliser les plus belles
-interfaces Web/Application.</p> :
+{!lang ? <h2  style={{textAlign: 'center'}}>MON PARCOURS</h2>:<h2 style={{textAlign: 'center'}}>ABOUT ME</h2> }
+{!lang ? <p>Issu du monde de la pâtisserie, passionné par l’informatique et du domaine du web, j’ai commencé à apprendre 
+à coder en autodidacte et décider de me reconvertir professionnellement en tant que Web Développeur . Mon parcours m'a 
+permis d'acquérir un grand sens de l'imagination, de créativité et de rigueur. Ayant une préférence particulière pour 
+le design UX/UI, j'aime relever les défis techniques afin de réaliser de belles interfaces Web/Application.</p> :
 
  <p>Coming from the world of pastry , passionate about computers and the web,
   I started to learn to code on my own and decided to make a professional retraining
@@ -39,15 +42,14 @@ interfaces Web/Application.</p> :
    {!lang ? <h4>ET SINON DANS LA VIE PRIVEE ?</h4>:<h4>IN PRIVATE LIFE</h4> }
 
    {!lang ? <p>
-   
-Et bien disons que je suis ce qu'on peut appeler un geek (sauf que je suis passionnée de sport 🤣). J'aime les jeux vidéo, manga, 
-comics, jeux de société, cardgame. Je suis fan de soccer, football, basket, hockey. Je m'interesse aussi a tout ce qui touche à 
-l'histoire, aux sciences et aux nouvelles technologies. Et pour finir, je dessine et je peins. Voila ! 😁
+    Accro aux jeux vidéo, mangas, comics, jeux de société, je suis aussi un grand fan de sport (soccer, football, basket, hockey...)
+     Il m'arrive également de dessiner et peindre à temps perdu. Je m'intéresse aussi à l'histoire, aux sciences et bien évidemment
+      aux nouvelles technologies.
    </p>:
 
- <p>Well let's say I'm what you might call a geek (except that I'm passionate about sports 🤣). I like video games, manga, comics,
+ <p>Well let's say I'm what you might call a geek (except that I'm passionate about sports !). I like video games, manga, comics,
   board games, cardgame. I am a fan of soccer, football, basketball, hockey. I am also interested in everything related to history,
-   science and new technologies. And finally, I draw and I paint. Here is ! 😁</p> }
+   science and new technologies. And finally, I draw and I paint. Here is ! </p> }
 
 
 </div>
@@ -74,25 +76,25 @@ l'histoire, aux sciences et aux nouvelles technologies. Et pour finir, je dessin
  :     <p className="vertical-timeline-element-subtitle">O'Clock School, France.</p>
 }
 
-    {!lang ? <p>Le nid a pour but de mettre en relation développeurs et professionnels en manque de visibilité et 
-    pouvant s'entraider mutuellement. Le développeur met à disposition ses compétences techniques, améliorant, ou 
-    créant intégralement le site du professionnel qui, pour sa part, s'engage à laisser apparentes les références 
-    du développeur sur le site. <br/><br/>
+    {!lang ? <p style={{textAlign: 'justify'}} >"Le Nid" a pour but de mettre en relation développeurs et professionnels en manque de visibilité et pouvant 
+    s'entraider mutuellement. Le développeur met à disposition ses compétences techniques, améliorant, ou créant intégralement 
+    le site du professionnel qui, pour sa part, s'engage à laisser apparentes les références du développeur sur le site.<br/><br/>
     
-    Sur ce projets, j'ai essentiellement travailler sur la parti Front-end du site:
+    Sur ce projet, j'ai essentiellement travaillé sur la partie Front-end du site:
     <ul>
-    <li>Design interface</li>
-    <li>Integrations</li>
+    <li>    Design de l'interface</li>
+    <li>Intégrations</li>
     <li>Création des composants React</li>
-    <li>Liaison avec la parti Back-end</li>
+    <li>Liaison avec la partie Back-end</li>
     <li>Mise en place de Redux</li>
 
     </ul>
     </p> 
+
     
     :
      
-      <p>The nest aims to connect developers and professionals in lack of visibility and being able to help each 
+      <p style={{textAlign: 'justify'}}>The nest aims to connect developers and professionals in lack of visibility and being able to help each 
       other. The developer makes his technical skills available, improving, or creating entirely the site of the 
       professional who, for his part, undertakes to leave visible the developer's references on the site.<br/><br/>
     
@@ -139,13 +141,13 @@ l'histoire, aux sciences et aux nouvelles technologies. Et pour finir, je dessin
  :     <p className="vertical-timeline-element-subtitle">O'Clock School, France.</p>
 }
 
-{!lang ?  <p>O'clock est une formation intensive en programmation. La formations dure 5 mois, 
+{!lang ?  <p style={{textAlign: 'justify'}}>O'clock est une formation intensive en programmation. La formations dure 5 mois, 
 abordant de nombreux sujets, allant de la programmation orientée objet en PHP, jusqu’à une 
 spécialisation en Javascript/Wordpress.
 </p>
  : 
  
- <p>O'clock is intensive training in programming. The training lasts 5 months, covering many subjects,
+ <p style={{textAlign: 'justify'}}>O'clock is intensive training in programming. The training lasts 5 months, covering many subjects,
     ranging from object-oriented programming in PHP, to a specialization in Javascript/Wordpress.</p> }
 
     <p>Technologies:

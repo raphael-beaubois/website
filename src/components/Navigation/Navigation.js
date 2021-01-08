@@ -21,19 +21,19 @@ const Navigation = (props) => {
     </a>: <a onClick={onButtonClick} >
      <img src={france} className='lang-button-fr'/>
     </a> }
-          <li><a href='/'><i class="fas fa-home" style={{fontSize: '2rem', marginTop: '15px',color: 'grey'}}></i></a><br/>         
+          <li><a href='/'><i class="fas fa-home" style={{fontSize: '2rem', marginTop: '20px',color: 'grey'}}></i></a><br/>         
           {!lang ? <a href='/' className='navigation-link'>Accueil</a> : <a href='/' className='navigation-link'>Home</a> }</li>
 
-          <li><a href='/about'><i class="fas fa-id-card" style={{fontSize: '2rem', marginTop: '15px',color: 'grey'}}></i></a><br/> 
+          <li><a href='/about'><i class="fas fa-id-card" style={{fontSize: '2rem', marginTop: '20px',color: 'grey'}}></i></a><br/> 
           {!lang ? <a href='/about' className='navigation-link'>Bio</a> : <a href='/about' className='navigation-link'>About</a>}</li>
 
-          <li><a href='/skills'><i class="fas fa-cogs" style={{fontSize: '2rem', marginTop: '15px',color: 'grey'}}></i></a><br/>  
+          <li><a href='/skills'><i class="fas fa-cogs" style={{fontSize: '2rem', marginTop: '20px',color: 'grey'}}></i></a><br/>  
            {!lang ? <a href='/skills' className='navigation-link'>Skills</a> : <a href='/skills' className='navigation-link'>Skills</a>  }</li>
 
-          <li><a href='/project'><i class="far fa-eye" style={{fontSize: '2rem', marginTop: '15px',color: 'grey'}}></i></a><br/>   
+          <li><a href='/project'><i class="far fa-eye" style={{fontSize: '2rem', marginTop: '20px',color: 'grey'}}></i></a><br/>   
           {!lang ? <a href='/project' className='navigation-link'>Projets</a> : <a href='/project' className='navigation-link'>Works</a>}</li>
 
-          <li><a href='/contact'><i class="far fa-envelope" style={{fontSize: '2rem',marginLeft: '3px', marginTop: '15px',color: 'grey'}}></i></a><br/> 
+          <li><a href='/contact'><i class="far fa-envelope" style={{fontSize: '2rem',marginLeft: '3px', marginTop: '20px',color: 'grey'}}></i></a><br/> 
           <a href='/contact' className='navigation-link'>Contact</a></li>
 
       </ul>        </Bounce>
