@@ -87,7 +87,7 @@ const Header = (props) => {
                 console.log(type);
               }}
             >
-              Développeur Front-End / ReactJS
+              Développeur Fullstack
             </TextyAnim>
           </Slide>
         ) : (
@@ -100,7 +100,7 @@ const Header = (props) => {
                 console.log(type);
               }}
             >
-              Front End Developper / ReactJS
+              Fullstack Developper 
             </TextyAnim>
           </Slide>
         )}

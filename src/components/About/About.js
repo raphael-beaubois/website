@@ -7,6 +7,8 @@ import "./styles.scss";
 import "react-vertical-timeline-component/style.min.css";
 import Particles from "react-particles-js";
 
+import { BIO_FR, BIO_EN, BIO_INTRO_FR, BIO_INTRO_EN } from "./AboutEnum";
+
 const About = (props) => {
   const { lang } = props;
 
@@ -35,23 +37,7 @@ const About = (props) => {
         ) : (
           <h2 style={{ textAlign: "center" }}>ABOUT ME</h2>
         )}
-        {!lang ? (
-          <p>
-            Issu du monde de la pâtisserie, passionné par l’informatique et du
-            domaine du web, j’ai commencé à apprendre à coder en autodidacte et
-            décider de me reconvertir professionnellement en tant que Web
-            Développeur . Mon parcours m'a permis d'acquérir un grand sens de
-            l'imagination, de créativité et de rigueur. Ayant une préférence
-            particulière pour le design UX/UI, j'aime relever les défis
-            techniques afin de réaliser de belles interfaces Web/Application.
-          </p>
-        ) : (
-          <p>
-            Coming from the world of pastry , passionate about computers and the
-            web, I started to learn to code on my own and decided to make a
-            professional retraining at O’clock school.
-          </p>
-        )}
+        {!lang ? <p>{BIO_FR}</p> : <p>{BIO_EN}</p>}
 
         {!lang ? (
           <h4>ET SINON DANS LA VIE PRIVEE ?</h4>
@@ -59,24 +45,10 @@ const About = (props) => {
           <h4>IN PRIVATE LIFE</h4>
         )}
 
-        {!lang ? (
-          <p>
-            Accro aux jeux vidéo, mangas, comics, jeux de société, je suis aussi
-            un grand fan de sport (soccer, football, basket, hockey...) Il
-            m'arrive également de dessiner et peindre à temps perdu. Je
-            m'intéresse aussi à l'histoire, aux sciences et bien évidemment aux
-            nouvelles technologies.
-          </p>
-        ) : (
-          <p>
-            Well let's say I'm what you might call a geek (except that I'm
-            passionate about sports !). I like video games, manga, comics, board
-            games, cardgame. I am a fan of soccer, football, basketball, hockey.
-            I am also interested in everything related to history, science and
-            new technologies. And finally, I draw and I paint. Here is !{" "}
-          </p>
-        )}
+        {!lang ? <p>{BIO_INTRO_FR}</p> : <p>{BIO_INTRO_EN}</p>}
       </div>
+
+      {/* DEBUT DE LA TIMELINE */}
 
       <div className="about-timeline">
         <VerticalTimeline>
@@ -84,7 +56,7 @@ const About = (props) => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(104, 104, 104)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="2013 - 2014"
+            date="Jan 2021 - present"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
             {!lang ? (
@@ -112,13 +84,47 @@ const About = (props) => {
               Montréal, Canada.
             </p>
           </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "rgb(104, 104, 104)", color: "#fff" }}
+            contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+            date="Jan 2021 - present"
+            iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          >
+            {!lang ? (
+              <h2
+                className="vertical-timeline-element-title"
+                style={{ fontSize: "2rem", fontFamily: "Abel", color: "white" }}
+              >
+                Developpeur Web Front-end
+              </h2>
+            ) : (
+              <h2
+                className="vertical-timeline-element-title"
+                style={{ fontSize: "2rem", fontFamily: "Abel", color: "white" }}
+              >
+                Front End Web Developer
+              </h2>
+            )}
+            <p
+              className="vertical-timeline-element-title"
+              style={{ fontSize: "1.3rem", fontFamily: "Abel", color: "white" }}
+            >
+              Agence Ninja
+            </p>
+            <p className="vertical-timeline-element-subtitle">
+              Montréal, Canada.
+            </p>
+          </VerticalTimelineElement>
+
           {/* PROJET ECOLE */}
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "rgb(104, 104, 104)", color: "#fff" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-            date="Sept 2020 - present"
+            date="Sept 2020 - Dec 2020"
             iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           >
             {!lang ? (

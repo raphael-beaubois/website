@@ -10,6 +10,7 @@ import Navigation from "../Navigation/Navigation";
 //==============================================//
 //Import photo
 import adobeXD from "./img/adobeXD.png";
+import laravel from "./img/laravel.png";
 import apple from "./img/apple.png";
 import bootstrap from "./img/bootstrap.png";
 import swift from "./img/swift.png";
@@ -194,6 +195,23 @@ const Skills = (props) => {
                     <img src={php} className=" skills-img" alt="pic" />
                     <br />
                     PHP
+                  </li>
+                )}
+              </Spring>
+            </Roll>
+
+            <Roll bottom>
+              <Spring
+                config={{ delay: 800 }}
+                from={{ opacity: 0 }}
+                to={{ opacity: 1 }}
+              >
+                {(props) => (
+                  <li style={props}>
+                    {" "}
+                    <img src={laravel} className=" skills-img" alt="pic" />
+                    <br />
+                    LARAVEL
                   </li>
                 )}
               </Spring>
