@@ -5,7 +5,7 @@ import {
   withScriptjs,
   withGoogleMap,
   GoogleMap,
-  Marker
+  Marker,
 } from "react-google-maps";
 
 const MyMapComponent = compose(
@@ -19,22 +19,30 @@ const MyMapComponent = compose(
       "https://maps.googleapis.com/maps/api/js?key=AIzaSyDlxm2lLXSd8cJdrKjJ5U908zbnPKPYRM8&v=3.exp&libraries=geometry,drawing,places",
     loadingElement: <div style={{ height: `80vh` }} />,
     containerElement: <div style={{ height: `80vh` }} />,
-    mapElement: <div style={{ height: `100vh` }} />
+    mapElement: <div style={{ height: `100vh` }} />,
   }),
   withScriptjs,
   withGoogleMap
-)(props => (
-  <GoogleMap defaultZoom={12} defaultCenter={{ lat: 45.5016889, lng: -73.567256 }}   
-  options={{
-        styles: [{ stylers: [{ 'saturation': -100 }, { 'gamma': 0 }, {'filter': 'grayscale(10%)'}] }]
-        
-    }}>
+)((props) => (
+  <GoogleMap
+    defaultZoom={12}
+    defaultCenter={{ lat: 45.5016889, lng: -73.567256 }}
+    options={{
+      styles: [
+        {
+          stylers: [
+            { saturation: -100 },
+            { gamma: 0 },
+            { filter: "grayscale(10%)" },
+          ],
+        },
+      ],
+    }}
+  >
     {props.isMarkerShown && (
       <Marker position={{ lat: 45.5016889, lng: -73.567256 }} />
     )}
-
-
   </GoogleMap>
-  ));
+));
 
-export default MyMapComponent
+export default MyMapComponent;

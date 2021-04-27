@@ -1,45 +1,41 @@
-.about{
-display: flex;
-flex-wrap: wrap;
-margin-left: 200px;
-box-sizing: border-box;
-width: 80%;
-
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 200px;
+  box-sizing: border-box;
+  width: 80%;
 }
 
-.about-timeline{
-width: 100%;
+.about-timeline {
+  width: 100%;
 }
 
-.about-head{
- 
+.about-head {
 }
 
 .vertical-timeline {
-    width: 90%;
-    margin:  auto;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  padding: 2em 0;
+  min-width: 300px;
+  margin-left: 100px;
+}
+
+@media only screen and (max-width: 769px) {
+  /* CSS rules here */
+
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .vertical-timeline {
+    max-width: 400px;
+    margin: 0 auto;
     position: relative;
     padding: 2em 0;
     min-width: 300px;
-    margin-left: 100px;
-}
-
-@media only screen and (max-width:769px) { 
-    /* CSS rules here */
-  
-
-    .about {
-        display: flex;
-        flex-wrap: wrap;
-        margin: auto;
-    }
-
-    .vertical-timeline {
-        max-width: 400px;
-        margin: 0 auto;
-        position: relative;
-        padding: 2em 0;
-        min-width: 300px;
-    }
-    
+  }
 }
