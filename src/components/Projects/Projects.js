@@ -128,6 +128,38 @@ const Project = (props) => {
           <div className="content1">
             <Slide left>
               <div className="contentText">
+                <h3>RENDEZ VOUS PANQUEBECOIS 2021</h3>
+                {!lang ? (
+                  <p>
+                   Site de plateforme streaming pour festival
+                  </p>
+                ) : (
+                  <p>Streaming website for secondary school festival</p>
+                )}
+
+                <div className="contentTextButton">
+                  <a
+                    href="https://www.rvpqvirtuel.com/"
+                    target="_blank"
+                    className="button-code"
+                  >
+                    {" "}
+                   VOIR ICI{" "}
+                  </a>
+                </div>
+              </div>
+            </Slide>
+
+            <Slide bottom>
+              <div className="contentImg">
+                <img className="contentIMGIMG" src={galaxia} alt="pic" />
+              </div>
+            </Slide>
+          </div>
+          
+          <div className="content1">
+            <Slide left>
+              <div className="contentText">
                 <h3>GALAXIA</h3>
                 {!lang ? (
                   <p>
