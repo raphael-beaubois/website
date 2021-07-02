@@ -10,6 +10,7 @@ import AppFilm from "./applifilm.png";
 import lenid from "./mocklenid.png";
 import galaxia from "./galaxia-mock.png";
 import converter from "./convertermock.png";
+import rvpadesk from "./rvpadesk.png";
 
 const Project = (props) => {
   const { lang } = props;
@@ -130,9 +131,7 @@ const Project = (props) => {
               <div className="contentText">
                 <h3>RENDEZ VOUS PANQUEBECOIS 2021</h3>
                 {!lang ? (
-                  <p>
-                   Site de plateforme streaming pour festival
-                  </p>
+                  <p>Site de plateforme streaming pour festival</p>
                 ) : (
                   <p>Streaming website for secondary school festival</p>
                 )}
@@ -144,7 +143,7 @@ const Project = (props) => {
                     className="button-code"
                   >
                     {" "}
-                   VOIR ICI{" "}
+                    VOIR ICI{" "}
                   </a>
                 </div>
               </div>
@@ -152,11 +151,11 @@ const Project = (props) => {
 
             <Slide bottom>
               <div className="contentImg">
-                <img className="contentIMGIMG" src={galaxia} alt="pic" />
+                <img className="contentIMGIMG" src={rvpadesk} alt="pic" />
               </div>
             </Slide>
           </div>
-          
+
           <div className="content1">
             <Slide left>
               <div className="contentText">
@@ -649,8 +648,7 @@ config={{delay: 400}}
                     sides: 5,
                   },
                   image: {
-                    src:
-                      "https://cdn.matteobruni.it/images/particles/github.svg",
+                    src: "https://cdn.matteobruni.it/images/particles/github.svg",
                     width: 100,
                     height: 100,
                   },
